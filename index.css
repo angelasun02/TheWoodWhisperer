@@ -128,5 +128,9 @@
     	display: none;
         z-index: 100;}
 
+@media screen and (max-width:1024px){
+            .day5p1{height: 576px;}
+    .day7p1{height: 576px;}
+}
 
 
