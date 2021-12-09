@@ -150,6 +150,20 @@
         box-shadow: 3px 0px 5px #000000;
         z-index: 250;}
 
+    .caption{position: fixed;
+    	font-size: 14px;
+    	line-height: 20px;
+    	color: #808080;
+        display: block;
+        top: 192px;
+        right: -156px;
+        transform: rotate(90deg);
+    z-index: 300;}
+    span{margin-left: 23px;
+        color: #808080;}
+    span:hover{text-decoration: none;
+    	color: #808080;}
+
 @media screen and (max-width:1280px){
     .day5p1{height: 576px;}
     .day7p1{height: 576px;}
@@ -177,6 +191,9 @@
         position: absolute;}
     .bg{width: 520px;
     	height: 573px;}
+    .caption{top: 620px;
+    	left: 10px;
+        transform: rotate(0deg);}
 }
 
 
