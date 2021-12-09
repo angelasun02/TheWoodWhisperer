@@ -7,13 +7,11 @@
         overflow-x: hidden;}
     .day5p1{margin: 0 auto;
         position: fixed;
-        height: 760px;
-        box-shadow: 5px 5px 5px #c4c4c4;
+        height: 750px;
         z-index: 0;}
     .day7p1{margin: 0 auto;
         position: fixed;
-        height: 760px;
-        box-shadow: 5px 5px 5px #c4c4c4;
+        height: 750px;
         z-index: 120;}
     .eventicon{margin-top: 92px;
         margin-left: 17px;
@@ -105,11 +103,11 @@
                 transform: rotate(-20deg);}
 
     .diary{width: 500px;
-    	height: 100vh;
+    	height: 750px;
     	margin-left: 607px;
         position: absolute;}
     .bg{width: 600px;
-    	height: 100vh;
+    	height: 750px;
     	margin-left: -50px;
     	opacity: 0.6;
     	display: none;
@@ -128,9 +126,56 @@
     	display: none;
         z-index: 100;}
 
-@media screen and (max-width:1024px){
-            .day5p1{height: 576px;}
+    .whiteblock{position: fixed;
+        margin-left: 0px;
+        margin-top: 750px;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        z-index: 200;}
+    .bottomline{position: fixed;
+        width: 1333.3px;
+        height: 1px;
+        background-color: transparent;
+        margin-left: 0px;
+        margin-top: 747px;
+        box-shadow: 5px 5px 5px #000000;
+        z-index: 250;}
+    .bottomline2{position: fixed;
+        width: 1px;
+        height: 747px;
+        background-color: transparent;
+        margin-left: 1331.3px;
+        margin-top: 0px;
+        box-shadow: 5px 5px 5px #000000;
+        z-index: 250;}
+
+@media screen and (max-width:1280px){
+    .day5p1{height: 576px;}
     .day7p1{height: 576px;}
+    .bottomline{width: 1023px;
+    margin-top: 573px;}
+    .bottomline2{height: 573px;
+    margin-left: 1022px;}
+    .whiteblock{margin-top: 576px;}
+    .eventicon{margin-top: 82px;}
+    .eventiconback{margin-top: 82px;}
+    .date{margin-top: 102px;}
+    .event{margin-top: 102px;}
+    .eventex{margin-top: 181px;
+    	margin-left: 14px;}
+    .diaryicon1{margin-top: 16px;
+  	  margin-left: 956px;}
+    .line3{margin-top: 31px;
+  	  margin-left: 956px;}
+    .line4{margin-top: 31px;
+  	  margin-left: 956px;}
+  	 .diary{width: 420px;
+    	height: 576px;
+    	margin-left: 458px;
+        position: absolute;}
+    .bg{width: 520px;
+    	height: 576px;}
 }
 
 
