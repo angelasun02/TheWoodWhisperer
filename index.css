@@ -55,9 +55,9 @@
 
     .Majorevents{text-decoration: underline;}
     a{text-decoration: none;
-    color: black;}
+    color: #000000;}
     a:hover{text-decoration: underline;
-    	color: black;}
+    	color: #000000;}
     
     .diaryicon1{position: fixed;
         z-index: 150;
@@ -161,8 +161,9 @@
     z-index: 300;}
     span{margin-left: 23px;
         color: #808080;}
-    span:hover{text-decoration: none;
-    	color: #808080;}
+    span:hover{color: #c4c4c4;}
+
+    a.cap:hover{text-decoration: none;}
 
 @media screen and (max-width:1280px){
     .day5p1{height: 576px;}
