@@ -103,11 +103,11 @@
                 transform: rotate(-20deg);}
 
     .diary{width: 500px;
-    	height: 750px;
+    	height: 747px;
     	margin-left: 607px;
         position: absolute;}
     .bg{width: 600px;
-    	height: 750px;
+    	height: 747px;
     	margin-left: -50px;
     	opacity: 0.6;
     	display: none;
@@ -128,7 +128,7 @@
 
     .whiteblock{position: fixed;
         margin-left: 0px;
-        margin-top: 750px;
+        margin-top: 745px;
         width: 100vw;
         height: 100vh;
         background-color: white;
@@ -157,7 +157,7 @@
     margin-top: 573px;}
     .bottomline2{height: 576px;
     margin-left: 1022px;}
-    .whiteblock{margin-top: 576px;
+    .whiteblock{margin-top: 573px;
     	height: 192px;}
     .eventicon{margin-top: 82px;}
     .eventiconback{margin-top: 82px;}
@@ -171,12 +171,12 @@
   	  margin-left: 956px;}
     .line4{margin-top: 31px;
   	  margin-left: 956px;}
-  	 .diary{width: 420px;
-    	height: 576px;
+  	.diary{width: 420px;
+    	height: 573px;
     	margin-left: 458px;
         position: absolute;}
     .bg{width: 520px;
-    	height: 576px;}
+    	height: 573px;}
 }
 
 
