@@ -165,7 +165,7 @@
 
     a.cap:hover{text-decoration: none;}
 
-@media screen and (max-width:1366px){
+@media screen and (max-width:1280px){
     .day5p1{height: 576px;}
     .day7p1{height: 576px;}
     .bottomline{width: 1023px;
@@ -182,21 +182,21 @@
     	margin-left: 14px;}
     .diaryicon1{margin-top: 16px;
   	  margin-left: 956px;}
-    .line3{margin-top: 31px;
+    .line3{margin-top: 27px;
   	  margin-left: 956px;}
-    .line4{margin-top: 31px;
+    .line4{margin-top: 27px;
   	  margin-left: 956px;}
   	.diary{width: 420px;
     	height: 573px;
     	margin-left: 458px;
         position: absolute;}
-    .blanktext{height: 310px;}
+    .blanktext{height: 102px;}
     .bg{width: 520px;
     	height: 573px;}
     .caption{top: 600px;
     	left: 10px;
-    	right: -156px;
         transform: rotate(0deg);}
+
 }
 
 
