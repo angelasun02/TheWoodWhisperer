@@ -165,7 +165,7 @@
 
     a.cap:hover{text-decoration: none;}
 
-@media screen and (max-width:1280px){
+@media screen and (max-width:1380px){
     .day5p1{height: 576px;}
     .day7p1{height: 576px;}
     .bottomline{width: 1023px;
