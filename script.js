@@ -38,4 +38,19 @@
                     $(".title").css('display','none'); 
                     $(".text").css('display','none');
                 });
+                $( ".rightd1p1" ).click(function() {
+                    $(".leftd1p1").css('display','none');
+                    $(".rightd1p1").css('display','none');
+                    $(".leftd1p2").css('display','block');
+                    $(".rightd1p2").css('display','block');
+                    $(".line1").css('display','block');
+                    $(".line2").css('display','block');
+                    $(".line3").css('display','none');
+                    $(".line4").css('display','none'); 
+                    $(".diary").css('display','none'); 
+                    $(".bg").css('display','none'); 
+                    $(".blanktext").css('display','none'); 
+                    $(".title").css('display','none'); 
+                    $(".text").css('display','none');
+                });
                 });
