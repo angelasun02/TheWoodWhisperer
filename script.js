@@ -223,9 +223,9 @@
                     $(".A14").css('display','none');
                     $(".leftA14").css('display','none');
                     $(".rightA14").css('display','none');
-                    $(".A13").css('display','block'); 
-                    $(".leftA13").css('display','block');
-                    $(".rightA13").css('display','block'); 
+                    $(".A15").css('display','block'); 
+                    $(".leftA15").css('display','block');
+                    $(".rightA15").css('display','block'); 
                 });
                 $( ".leftA15" ).click(function() {
                     $(".A15").css('display','none');
@@ -250,6 +250,22 @@
                     $(".A15").css('display','block');
                     $(".leftA15").css('display','block');
                     $(".rightA15").css('display','block');
+                });
+                $( ".rightA16" ).click(function() {
+                    $(".A16").css('display','none'); 
+                    $(".leftA16").css('display','none');
+                    $(".rightA16").css('display','none'); 
+                    $(".A17").css('display','block');
+                    $(".leftA17").css('display','block');
+                    $(".rightA17").css('display','block');
+                });
+                $( ".leftA17" ).click(function() {
+                    $(".A17").css('display','none');
+                    $(".leftA17").css('display','none');
+                    $(".rightA17").css('display','none');
+                    $(".A16").css('display','block'); 
+                    $(".leftA16").css('display','block');
+                    $(".rightA16").css('display','block'); 
                 });
                 $( ".rightA17" ).click(function() {
                     $(".A17").css('display','none');
@@ -315,7 +331,7 @@
                     $(".leftA20").css('display','block');
                     $(".rightA20").css('display','block'); 
                 });
-                $( ".leftA21" ).click(function() {
+                $( ".rightA21" ).click(function() {
                     $(".A21").css('display','none');
                     $(".leftA21").css('display','none');
                     $(".rightA21").css('display','none');
@@ -331,7 +347,7 @@
                     $(".leftA21").css('display','block');
                     $(".rightA21").css('display','block'); 
                 });
-                $( ".leftA22" ).click(function() {
+                $( ".rightA22" ).click(function() {
                     $(".A22").css('display','none');
                     $(".leftA22").css('display','none');
                     $(".rightA22").css('display','none');
@@ -347,20 +363,62 @@
                     $(".leftA22").css('display','block');
                     $(".rightA22").css('display','block'); 
                 });
-                $( ".leftA23" ).click(function() {
+                $( ".rightA23" ).click(function() {
                     $(".A23").css('display','none');
                     $(".leftA23").css('display','none');
                     $(".rightA23").css('display','none');
                     $(".B1").css('display','block'); 
-                    $(".B1").css('display','block');
-                    $(".B1").css('display','block'); 
+                    $(".leftB1").css('display','block');
+                    $(".rightB1").css('display','block'); 
                     $(".day1header").css('display','none');
                     $(".day2header").css('display','block');
                 });
 
+                $( ".leftB1" ).click(function() {
+                    $(".A23").css('display','block'); 
+                    $(".leftA23").css('display','block');
+                    $(".rightA23").css('display','block'); 
+                    $(".B1").css('display','none'); 
+                    $(".leftB1").css('display','none');
+                    $(".rightB1").css('display','none'); 
+                    $(".day1header").css('display','block');
+                    $(".day2header").css('display','none');
+                });
+                $( ".rightB1" ).click(function() {
+                    $(".B1").css('display','none'); 
+                    $(".leftB1").css('display','none');
+                    $(".rightB1").css('display','none'); 
+                    $(".B2").css('display','block'); 
+                    $(".leftB2").css('display','block');
+                });
+                $( ".leftB2" ).click(function() {
+                    $(".B1").css('display','block'); 
+                    $(".leftB1").css('display','block');
+                    $(".rightB1").css('display','block'); 
+                    $(".B2").css('display','none'); 
+                    $(".leftB2").css('display','none');
+                });
 
-                
 
+                $( ".Day2" ).click(function() {
+                    $(".B2").css('display','block'); 
+                    $(".leftB2").css('display','block');
+                    $(".day2header").css('display','block');
+                });
+
+                $( ".Day1" ).click(function() {
+                    $(".A3").css('display','block'); 
+                    $(".leftA3").css('display','block');
+                    $(".rightA3").css('display','block'); 
+                    $(".B1").css('display','none'); 
+                    $(".leftB1").css('display','none');
+                    $(".rightB1").css('display','none'); 
+                    $(".day1header").css('display','block');
+                    $(".day2header").css('display','none');
+                });
+
+
+            
 
                 $( ".eventicon" ).click(function() {
                     $(".eventicon").css('display','none');
