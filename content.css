@@ -4,28 +4,180 @@
             cursor: default;}
     body{margin:0 auto;
         overflow-x: hidden;}
-    .A2,.A3,.A4,.A5,.A6,.A7,.A8,.A9,.A10,.A11,.A12,.A13,.A14,.A15,.A16,.A17,.A18,.A19,.A20,.A21,.A22,.A23{margin: 0 auto;
+    
+
+    .Aclick{margin: 0 auto;
+        position: fixed;
+        display: block;
+        background-color: transparent;
+        height: 750px;
+        width: 1333.3px;
+        z-index: 200;}
+
+        .A{margin: 0 auto;
+        position: fixed;
+        display: block;
+        height: 750px;
+        z-index: 0;}
+
+       .day0header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+        .day1header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+        .day2header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+        .day3header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+        .day4header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+        .day5header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+        .day6header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+        .day7header{margin: 0 auto;
+        position: fixed;
+        display: none;
+        width: 1333.3px;
+        z-index: 120;}
+       
+
+       .A2{margin: 0 auto;
         position: fixed;
         display: none;
         height: 750px;
         z-index: 0;}
-    .day1header{margin: 0 auto;
-        position: fixed;
-        display: block;
-        width: 1333.3px;
-        z-index: 100;}
-
-    .day2header,.day3header,.day4header,.day5header,.day6header,.day7header
-       {margin: 0 auto;
+        .A3{margin: 0 auto;
         position: fixed;
         display: none;
-        width: 1333.3px;
-        z-index: 100;}
+        height: 750px;
+        z-index: 0;}
+       .A4{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A5{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A6{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A7{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A8{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A9{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A10{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A11{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A12{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A13{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A14{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A15{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A16{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A17{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A18{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A19{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A20{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A21{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A22{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+        .A23{margin: 0 auto;
+        position: fixed;
+        display: none;
+        height: 750px;
+        z-index: 0;}
+
     .eventicon{margin-top: 92px;
         margin-left: 17px;
         position: fixed;
         width: 21px;
-        display: block;
+        display: none;
         cursor: crosshair;
         z-index: 150;}
      .eventiconback{margin-top: 92px;
@@ -39,6 +191,7 @@
     .date{position: fixed;
     	margin-left: 14px;
     	margin-top: 112px;
+    	display: none;
     	z-index: 150;}
     p{font-size: 19px;
     	line-height: 20px;}
@@ -71,7 +224,8 @@
         z-index: 150;
         margin-top: 24px;
         margin-left: 1271px;
-         cursor: crosshair;
+        cursor: crosshair;
+        display: none;
         width: 40px;
         height: 27px;}
     	.line1{background-color: #000000;
@@ -174,29 +328,580 @@
 
     a.cap:hover{text-decoration: none;}
 
-    .leftd1p1{position: fixed;
+    .leftA2{position: fixed;
     	z-index: 300;
-    	width: 200px;
-    	height: 700px;
-    	display: block;
+    	width: 233px;
+        height: 674px;
+    	display: none;
     	background-color: transparent;
-    	margin-top: 50px;
+    	margin-top: 75px;
     	margin-left: 333px;}
-    .rightd1p1{position: fixed;
+    .rightA2{position: fixed;
     	z-index: 300;
-    	width: 200px;
-    	height: 700px;
-    	display: block;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
     	background-color: transparent;
-    	margin-top: 50px;
-    	margin-left: 1134px;}
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA3{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA3{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA4{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA4{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA5{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA5{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA6{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA6{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA7{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA7{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA8{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA8{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA9{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA9{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA10{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA10{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA11{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA11{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA12{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA12{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA13{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA13{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA14{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA14{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA15{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA15{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA16{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA16{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA17{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA17{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA18{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA18{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA19{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA19{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA20{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA20{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA21{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA21{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA22{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA22{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+    .leftA23{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 333px;}
+    .rightA23{position: fixed;
+    	z-index: 300;
+    	width: 233px;
+    	height: 674px;
+    	display: none;
+    	background-color: transparent;
+    	margin-top: 75px;
+    	margin-left: 1102px;}
+
 
 
 
 
 @media screen and (max-width:1280px){
-    .day5p1{height: 576px;}
-    .day7p1{height: 576px;}
+	.Aclick{height: 576px;
+    width: 1024px;}
+    .A{height: 576px;}
+    .A2{height: 576px;}
+    .A3{height: 576px;}
+    .A4{height: 576px;}
+    .A5{height: 576px;}
+    .A6{height: 576px;}
+    .A7{height: 576px;}
+    .A8{height: 576px;}
+    .A9{height: 576px;}
+    .A10{height: 576px;}
+    .A11{height: 576px;}
+    .A12{height: 576px;}
+    .A13{height: 576px;}
+    .A14{height: 576px;}
+    .A15{height: 576px;}
+    .A16{height: 576px;}
+    .A17{height: 576px;}
+    .A18{height: 576px;}
+    .A19{height: 576px;}
+    .A20{height: 576px;}
+    .A21{height: 576px;}
+    .A22{height: 576px;}
+    .A23{height: 576px;}
+
+
+
+    .day0header{width: 1024px;}
+    .day1header{width: 1024px;}
+    .day2header{width: 1024px;}
+    .day3header{width: 1024px;}
+    .day4header{width: 1024px;}
+    .day5header{width: 1024px;}
+    .day6header{width: 1024px;}
+    .day7header{width: 1024px;}
+
+    .leftA2{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA2{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA3{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA3{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA4{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA4{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA5{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA5{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA6{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA6{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA7{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA7{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA8{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA8{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA9{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA9{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA10{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA10{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA11{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA11{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA12{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA12{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA13{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA13{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA14{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA14{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA15{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA15{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA16{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA16{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA17{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA17{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA18{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA18{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA19{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA19{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA20{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA20{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA21{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA21{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA22{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA22{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA23{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA23{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+
+
+
     .bottomline{width: 1023px;
     margin-top: 573px;}
     .bottomline2{height: 576px;
