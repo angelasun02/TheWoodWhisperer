@@ -4,12 +4,18 @@
             cursor: default;}
     body{margin:0 auto;
         overflow-x: hidden;}
-    .A2,.A3,.A4,.A5,.A6,.A7,.A8,.A9,.A10,.A11,.A12,.A13,.A14,.A15,.A16,.A17,.A18,.A19,.A20,.A21,.A22,.A23,{margin: 0 auto;
+    .A2,.A3,.A4,.A5,.A6,.A7,.A8,.A9,.A10,.A11,.A12,.A13,.A14,.A15,.A16,.A17,.A18,.A19,.A20,.A21,.A22,.A23{margin: 0 auto;
         position: fixed;
         display: none;
         height: 750px;
         z-index: 0;}
-    .day1header,.day2header,.day3header,.day4header,.day5header,.day6header,.day7header
+    .day1header{margin: 0 auto;
+        position: fixed;
+        display: block;
+        width: 1333.3px;
+        z-index: 100;}
+
+    .day2header,.day3header,.day4header,.day5header,.day6header,.day7header
        {margin: 0 auto;
         position: fixed;
         display: none;
