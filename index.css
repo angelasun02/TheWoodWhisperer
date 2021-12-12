@@ -2,17 +2,19 @@
     *{font-family: Space Mono, sans-serif;
             font-style: normal;
             cursor: default;}
-    body{min-width: 1200px;
-    	margin:0 auto;
+    body{margin:0 auto;
         overflow-x: hidden;}
-    .day5p1{margin: 0 auto;
+    .A2,.A3,.A4,.A5,.A6,.A7,.A8,.A9,.A10,.A11,.A12,.A13,.A14,.A15,.A16,.A17,.A18,.A19,.A20,.A21,.A22,.A23,{margin: 0 auto;
         position: fixed;
+        display: none;
         height: 750px;
         z-index: 0;}
-    .day7p1{margin: 0 auto;
+    .day1header,.day2header,.day3header,.day4header,.day5header,.day6header,.day7header
+       {margin: 0 auto;
         position: fixed;
-        height: 750px;
-        z-index: 120;}
+        display: none;
+        width: 1333.3px;
+        z-index: 100;}
     .eventicon{margin-top: 92px;
         margin-left: 17px;
         position: fixed;
@@ -57,7 +59,7 @@
     a{text-decoration: none;
     color: #000000;}
     a:hover{text-decoration: underline;
-    	color: #000000;}
+    	color: #808080;}
     
     .diaryicon1{position: fixed;
         z-index: 150;
@@ -179,22 +181,6 @@
     	width: 200px;
     	height: 700px;
     	display: block;
-    	background-color: transparent;
-    	margin-top: 50px;
-    	margin-left: 1134px;}
-    .leftd1p2{position: fixed;
-    	z-index: 300;
-    	width: 200px;
-    	height: 700px;
-    	display: none;
-    	background-color: transparent;
-    	margin-top: 50px;
-    	margin-left: 333px;}
-    .rightd1p2{position: fixed;
-    	z-index: 300;
-    	width: 200px;
-    	height: 700px;
-    	display: none;
     	background-color: transparent;
     	margin-top: 50px;
     	margin-left: 1134px;}

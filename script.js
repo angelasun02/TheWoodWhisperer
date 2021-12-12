@@ -2,6 +2,7 @@
                 $('img').bind('contextmenu', function(e){
                     return false;
                 }); 
+
                 $( ".eventicon" ).click(function() {
                     $(".eventicon").css('display','none');
                     $(".date").css('display','none');
