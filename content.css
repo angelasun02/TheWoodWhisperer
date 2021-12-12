@@ -6,6 +6,13 @@
         overflow-x: hidden;}
     
 
+    .menu{position: fixed;
+        width: 282px;
+        height: 49px;
+        margin-top: 12px;
+        display: none;
+        background-color: transparent;
+        z-index: 300;}
     .Aclick{margin: 0 auto;
         position: fixed;
         display: block;
@@ -927,6 +934,10 @@
 
 
 
+    .menu{width: 211px;
+        height: 39px;
+        margin-top: 7px;}
+
     .bottomline{width: 1023px;
     margin-top: 573px;}
     .bottomline2{height: 576px;
@@ -1194,6 +1205,9 @@
         line-height: 16px;}
     .Eventex1{font-size: 12px;
         line-height: 16px;}
+
+    .menu{width: 165px;
+        height: 30px;}
 
     .blank1{height: 17.5px;}
     .blank2{height: 2.5px;}
