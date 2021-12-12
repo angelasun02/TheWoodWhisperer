@@ -699,7 +699,7 @@
 
 
 
-@media screen and (max-width:1360px){
+@media screen and (max-width:1380px){
 	.Aclick{height: 576px;
     width: 1024px;}
     .A{height: 576px;}
@@ -957,5 +957,265 @@
         transform: rotate(0deg);}
 
 }
+
+@media screen and (max-width:1040px){
+    .Aclick{height: 576px;
+    width: 1024px;}
+    .A{height: 576px;}
+    .A2{height: 576px;}
+    .A3{height: 576px;}
+    .A4{height: 576px;}
+    .A5{height: 576px;}
+    .A6{height: 576px;}
+    .A7{height: 576px;}
+    .A8{height: 576px;}
+    .A9{height: 576px;}
+    .A10{height: 576px;}
+    .A11{height: 576px;}
+    .A12{height: 576px;}
+    .A13{height: 576px;}
+    .A14{height: 576px;}
+    .A15{height: 576px;}
+    .A16{height: 576px;}
+    .A17{height: 576px;}
+    .A18{height: 576px;}
+    .A19{height: 576px;}
+    .A20{height: 576px;}
+    .A21{height: 576px;}
+    .A22{height: 576px;}
+    .A23{height: 576px;}
+    .B1{height: 576px;}
+    .B2{height: 576px;}
+
+
+
+    .day0header{width: 1024px;}
+    .day1header{width: 1024px;}
+    .day2header{width: 1024px;}
+
+
+    .leftA2{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA2{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA3{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA3{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA4{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA4{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA5{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA5{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA6{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA6{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA7{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA7{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA8{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA8{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA9{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA9{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA10{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA10{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA11{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA11{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA12{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA12{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA13{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA13{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA14{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA14{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA15{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA15{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA16{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA16{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA17{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA17{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA18{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA18{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA19{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA19{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA20{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA20{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA21{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA21{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA22{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA22{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftA23{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightA23{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftB1{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+    .rightB1{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 844px;}
+    .leftB2{width: 180px;
+    height: 518px;
+    margin-top: 57px;
+    margin-left: 254px;}
+
+
+
+    .bottomline{width: 1023px;
+    margin-top: 573px;}
+    .bottomline2{height: 576px;
+    margin-left: 1022px;}
+    .whiteblock{margin-top: 573px;
+        height: 192px;}
+    .eventicon{margin-top: 82px;}
+    .eventiconback{margin-top: 82px;}
+    .date{margin-top: 102px;}
+    .event{margin-top: 102px;}
+    .eventex{margin-top: 181px;
+        margin-left: 14px;}
+    .diaryicon1{margin-top: 16px;
+      margin-left: 956px;}
+    .line3{margin-top: 27px;
+      margin-left: 956px;}
+    .line4{margin-top: 27px;
+      margin-left: 956px;}
+    .diary{width: 420px;
+        height: 573px;
+        margin-left: 458px;
+        position: absolute;}
+    .blanktext{height: 102px;}
+    .bg{width: 520px;
+        height: 573px;}
+    .caption{top: 600px;
+        left: 10px;
+        right: 0px;
+        transform: rotate(0deg);}
+
+}
+
 
 
