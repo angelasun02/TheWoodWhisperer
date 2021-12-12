@@ -34,6 +34,7 @@
                     $(".rightA3").css('display','block');
                     $(".day0header").css('display','none');
                     $(".day1header").css('display','block');
+                    $(".Day1").css('text-decoration','underline');
                 });
                 $( ".leftA3" ).click(function() {
                     $(".A3").css('display','none');
@@ -42,6 +43,7 @@
                     $(".A2").css('display','block'); 
                     $(".leftA2").css('display','block'); 
                     $(".rightA2").css('display','block'); 
+                    $(".Day1").css('text-decoration','none');
                 });
                 $( ".rightA3" ).click(function() {
                     $(".A3").css('display','none');
@@ -372,6 +374,8 @@
                     $(".rightB1").css('display','block'); 
                     $(".day1header").css('display','none');
                     $(".day2header").css('display','block');
+                    $(".Day1").css('text-decoration','none');
+                    $(".Day2").css('text-decoration','underline');
                 });
 
                 $( ".leftB1" ).click(function() {
@@ -383,6 +387,8 @@
                     $(".rightB1").css('display','none'); 
                     $(".day1header").css('display','block');
                     $(".day2header").css('display','none');
+                    $(".Day1").css('text-decoration','underline');
+                    $(".Day2").css('text-decoration','none');
                 });
                 $( ".rightB1" ).click(function() {
                     $(".B1").css('display','none'); 
@@ -404,6 +410,8 @@
                     $(".B2").css('display','block'); 
                     $(".leftB2").css('display','block');
                     $(".day2header").css('display','block');
+                    $(".Day1").css('text-decoration','none');
+                    $(".Day2").css('text-decoration','underline');
                 });
 
                 $( ".Day1" ).click(function() {
@@ -413,8 +421,12 @@
                     $(".B1").css('display','none'); 
                     $(".leftB1").css('display','none');
                     $(".rightB1").css('display','none'); 
+                    $(".B2").css('display','none'); 
+                    $(".leftB2").css('display','none');
                     $(".day1header").css('display','block');
                     $(".day2header").css('display','none');
+                    $(".Day1").css('text-decoration','underline');
+                    $(".Day2").css('text-decoration','none');
                 });
 
 

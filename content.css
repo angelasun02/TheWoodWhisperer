@@ -203,8 +203,9 @@
 
     .Majorevents{text-decoration: underline;}
     a{text-decoration: none;
+        cursor: crosshair;
     color: #000000;}
-    a:hover{text-decoration: underline;
+    a:hover{text-decoration: none;
     	color: #808080;}
     
     .diaryicon1{position: fixed;
