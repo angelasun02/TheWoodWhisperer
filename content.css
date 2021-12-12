@@ -324,9 +324,6 @@
 
     a.cap:hover{text-decoration: none;}
 
-    .blanktextonly{background-color: transparent;
-        height: 0px;}
-
     .leftA2{position: fixed;
     	z-index: 300;
     	width: 233px;
@@ -946,7 +943,6 @@
     .bottomline2{height: 576px;
     margin-left: 1022px;}
     .whiteblock{margin-top: 573px;}
-    .blanktextonly{height: 200px;}
     .eventicon{margin-top: 82px;}
     .eventiconback{margin-top: 82px;}
     .date{margin-top: 102px;}
@@ -1221,7 +1217,6 @@
     .bottomline2{height: 432px;
     margin-left: 766px;}
     .whiteblock{margin-top: 429px;}
-    .blanktextonly{height: 200px;}
     .eventicon{margin-top: 53px;
         width: 13px;
         margin-left: 13px;}
